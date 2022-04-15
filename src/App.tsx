@@ -1,28 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import {
-  Button,
-  Code,
-  Image,
-  Text,
-  Flex,
-  Square,
-  Spacer,
-} from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
+import InputCard from 'components/InputCard/InputCard';
+import WeatherCard from 'components/WeatherCard/WeatherCard';
+import WeatherProvider, {
+	WeatherContextType,
+} from 'context/WeatherContext/weatherContext';
 
 function App() {
-  return (
-    <Flex padding={100} direction={'column'} align='center' height={'100vh'}>
-      <Square size={500}>
-        <Image src={logo} alt='logo' />
-      </Square>
-      <Text fontSize={'2xl'}>
-        Edit <Code>src/App.tsx</Code> and save to reload.
-      </Text>
-      <Button variant='link'>Learn React</Button>
-      <Spacer />
-    </Flex>
-  );
+	return (
+		<Flex
+			padding={100}
+			gap={10}
+			direction={'column'}
+			align='center'
+			height={'100vh'}
+		>
+			<WeatherProvider>
+				<InputCard />
+				<WeatherCard />
+			</WeatherProvider>
+		</Flex>
+	);
 }
 
 export default App;
