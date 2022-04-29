@@ -1,0 +1,38 @@
+.ContactForm {
+	position: relative;
+	flex-direction: column;
+	height: 160px;
+	gap: 10px;
+}
+
+.ContactForm label {
+	display: flex;
+	width: 200px;
+}
+
+.ContactForm label > span {
+	flex: 1;
+}
+
+.ContactForm label > input {
+	flex: 2;
+}
+
+.ContactForm input {
+	width: 95%;
+}
+
+.ContactForm input[type='submit'] {
+	width: 100px;
+	margin: auto;
+}
+
+.ContactForm > span {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	color: red;
+	font-size: 10px;
+	text-align: center;
+}

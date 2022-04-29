@@ -1,0 +1,13 @@
+.SnapInput .validation {
+	position: relative;
+	right: -10px;
+}
+
+.SnapInput .Name {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.SnapInput input.Name {
+	width: 150px;
+}

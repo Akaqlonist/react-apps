@@ -1,0 +1,35 @@
+.ContactList {
+	flex-direction: column;
+	width: 200px;
+	list-style: none;
+}
+
+.ContactList li {
+	position: relative;
+	height: 16px;
+	padding: 10px;
+	border: solid;
+	border-width: 0 0 0 0;
+	border-radius: 6px;
+}
+
+.ContactList li:hover > .delete {
+	visibility: visible;
+}
+
+.ContactList .delete {
+	visibility: hidden;
+	position: absolute;
+	right: 5px;
+	bottom: 6px;
+	font-size: 7px;
+}
+
+.ContactList li:hover {
+	background-color: lightcyan;
+}
+
+.ContactList li.active {
+	background-color: #248fff;
+	color: white;
+}

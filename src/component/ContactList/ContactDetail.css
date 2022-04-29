@@ -1,0 +1,25 @@
+.ContactDetail {
+	display: flex;
+	position: relative;
+	top: -50px;
+	left: 220px;
+	flex-direction: column;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+	color: black;
+	gap: 10px;
+}
+
+.ContactDetail .tail {
+	position: absolute;
+	left: -30px;
+	width: 0px;
+	height: 0px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: #ffffff00 white #ffffff00 #ffffff00;
+}
+
+.ContactDetail .name {
+	font-size: 20px;
+	font-weight: bold;
+}

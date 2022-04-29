@@ -1,4 +1,5 @@
 # react-apps
+
 React app best practices
 
 # Getting Started with Create React App
@@ -47,4 +48,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> e0449cf... Initialize project using Create React App
+
+> > > > > > > e0449cf... Initialize project using Create React App
